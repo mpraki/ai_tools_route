@@ -1,0 +1,5 @@
+2025-07-16 15:59:27,667 INFO ******* Tooling & Extraction Learning *******
+2025-07-16 15:59:27,667 INFO Extraction
+2025-07-16 15:59:27,668 INFO Initializing Extractor with model: gemini-2.5-flash and provider: google_genai
+2025-07-16 15:59:32,225 INFO Hello! I am Prakash Mani, 37 years old. I am a software engineer with 15 years of experience in Python and Java. I live in Attur, Salem. I have my friend Subin, who is 35 years old and works as a data scientist. My wife named Nithya, who is 35 years old and works as a product manager.: 
+{"people": [{"name": "Prakash Mani", "age": 37, "gender": "male"}, {"name": "Subin", "age": 35, "gender": "male"}, {"name": "Nithya", "age": 35, "gender": "female"}]}
