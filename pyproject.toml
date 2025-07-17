@@ -11,7 +11,8 @@ dependencies = [
     "python-dotenv",
     "langchain[google-genai]==0.3.25",
     "google-genai",
-    "pydantic"
+    "pydantic",
+    "wikipedia"
 ]
 
 [tool.poetry]
