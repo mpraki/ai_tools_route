@@ -2,10 +2,10 @@ import json
 import os
 from logging import basicConfig, info, error
 
-from extract.extractor import Extractor
-from tags.classifier import Classifier
-from tools.router import answer
-
+from .extract.extractor import Extractor
+from .tags.classifier import Classifier
+from .tools.router import answer
+from .agents.conversational_agent import ChatBot
 
 def main():
     info("Classification")
@@ -46,6 +46,8 @@ def main():
     question = "Whats the weather in Attur, Salem, Tamil Nadu?"
     response = answer(question)
     info(question + ": \n" + json.dumps(response))
+
+    ChatBot().run()
 
 
 def configure_logging():

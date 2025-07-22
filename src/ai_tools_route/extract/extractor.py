@@ -1,7 +1,7 @@
 import os
 from logging import info
 
-from extract.person import People
+from .person import People
 from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import SecretStr

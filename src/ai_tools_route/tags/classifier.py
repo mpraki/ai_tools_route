@@ -4,7 +4,7 @@ from logging import info
 from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import SecretStr
-from tags.classification import Classification
+from .classification import Classification
 
 
 class Classifier:
